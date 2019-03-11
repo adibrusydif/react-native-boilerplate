@@ -1,8 +1,8 @@
 const color = {
-  mainColor: '#FA384D',
-  mainBackground: '#fff',
+  primaryColor: '#FA384D',
+  white: '#fff',
   errorColor: '#EE1620',
-  mainFontColor: '#010020',
+  primaryFontColor: '#010020',
   grey: '#979797',
 }
 
