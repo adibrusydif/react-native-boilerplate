@@ -1,6 +1,8 @@
 import React, { PureComponent } from 'react'
 import { connect } from 'react-redux'
 import { View, Text, StyleSheet, ScrollView, Dimensions, ActivityIndicator } from 'react-native'
+
+// Import local
 import { exampleRequest } from './action'
 
 class Example extends PureComponent {
