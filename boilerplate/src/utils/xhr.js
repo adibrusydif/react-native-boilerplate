@@ -10,6 +10,8 @@ function baseAxios(options) {
     'max-age': 0,
   }
 
+  axios.defaults.headers.common.token = 'YOUR_TOKEN'
+
   return axios.create({
     baseURL: url.format('https://jsonplaceholder.typicode.com'),
     timeout: options.timeout || 30000,
