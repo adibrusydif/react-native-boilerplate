@@ -2,7 +2,7 @@ import { put, takeLatest, call } from 'redux-saga/effects'
 
 import * as actionType from './constants'
 import * as exampleAction from './action'
-import API from '../../utils/request'
+import API from '../../utils/xhr'
 
 function* example() {
   try {
