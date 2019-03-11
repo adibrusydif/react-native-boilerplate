@@ -3,9 +3,9 @@ import PropTypes from 'prop-types'
 import { View, Text, StyleSheet, Image } from 'react-native'
 
 // Import local
-import initial from '../../utils/initial'
-import style from '../../style/defaultStyle'
-import ViewPropTypes from '../../config/viewPropTypes'
+import initial from 'utils/initial'
+import style from 'style/defaultStyle'
+import ViewPropTypes from 'config/viewPropTypes'
 
 const Avatar = ({
   size,

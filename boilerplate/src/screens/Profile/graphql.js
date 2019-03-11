@@ -1,6 +1,6 @@
 import gql from 'graphql-tag'
 
-import client from '../../utils/apolloProxy'
+import client from 'utils/apolloProxy'
 
 const credential =
   'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjU1NSIsInBlcmFuIjoxLCJrb2RlX3BlbGFuZ2dhbiI6ImI0eGY4Nm8ybXluaiIsImlhdCI6MTU1MTE1NjMxM30.hclGtv1FPtf6vu9ByVjMufoiTejowTcUkWK1XZoCjVw'

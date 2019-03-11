@@ -3,9 +3,9 @@ import { connect } from 'react-redux'
 import { ActivityIndicator, View, Text, StyleSheet } from 'react-native'
 
 // Import local
-import style from '../../style/defaultStyle'
+import style from 'style/defaultStyle'
 import { getProfileRequest } from './action'
-import { Avatar } from '../../components'
+import { Avatar } from 'components'
 
 class Profile extends React.PureComponent {
   componentDidMount() {
